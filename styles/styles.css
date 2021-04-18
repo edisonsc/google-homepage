@@ -35,9 +35,24 @@ nav a {
     padding: 15px;
 }
 
+.input{
+    border: 1px gray;
+    justify-content:center;
+}
+
+input{
+    border-radius: 15px;
+    border: 2px gray;
+}
+button{
+    background-color: #f7f5f5;
+    border-radius:5px;
+    border: 0;
+    padding:10px 15px 10px 15px;
+}
 footer{
     position:fixed;
-    padding:10px;
+    padding:10px 15px 10px 15px;
     background:#f7f5f5;
     bottom:0px;
     width: 100%;
