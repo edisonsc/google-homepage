@@ -38,7 +38,7 @@ nav a {
 footer{
     position:fixed;
     padding:10px;
-    background:gray;
+    background:#f7f5f5;
     bottom:0px;
     width: 100%;
     text-align: center;
@@ -51,5 +51,6 @@ footer a {
     width:100%;
     justify-items: space-between;
     text-decoration:none;
+    color: gray;
     
 }
