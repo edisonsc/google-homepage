@@ -38,11 +38,17 @@ nav a:hover{
     flex-direction:row;
     padding: 15px;
 }
-
 input{
-    border-radius: 15px;
+    border:0;
+    width:75%;
+}
+
+.input{
+    border-radius: 35px;
     border: 1px solid #c9c5c5;
-    width: 100%;
+    width: 50%;
+    display:flex;
+    justify-content:space-between;
 }
 .button{
     background-color: #f7f5f5;
