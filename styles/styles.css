@@ -42,13 +42,19 @@ nav a {
 
 input{
     border-radius: 15px;
-    border: 2px gray;
+    border: 2px solid gray;
 }
-button{
+.button{
     background-color: #f7f5f5;
     border-radius:5px;
-    border: 0;
+    border: 1px solid #f7f5f5;
     padding:10px 15px 10px 15px;
+    margin: 10px;
+}
+
+.button:hover{
+    border: 1px solid #c9c5c5;
+    transition-duration: 0.4s;
 }
 footer{
     position:fixed;
