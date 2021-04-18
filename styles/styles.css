@@ -23,6 +23,7 @@ nav a {
     padding-top:15px;
     align-items: center;
     text-decoration: none;
+    color: black;
 }
 nav a:hover{
     text-decoration:underline;
@@ -49,6 +50,14 @@ input{
     width: 50%;
     display:flex;
     justify-content:space-between;
+}
+
+.material-icons-outlined{
+    color:gray;
+}
+
+.material-icons{
+    color:gray;
 }
 .button{
     background-color: #f7f5f5;
