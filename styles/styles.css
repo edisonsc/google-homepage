@@ -1,6 +1,8 @@
 body{
     margin:0;
+    
 }
+
 nav{
     display:flex;
     justify-content:space-between;
@@ -22,7 +24,9 @@ nav a {
     align-items: center;
     text-decoration: none;
 }
-
+nav a:hover{
+    text-decoration:underline;
+}
 .flex-container{
     display:flex;
     justify-content:center;
@@ -35,14 +39,10 @@ nav a {
     padding: 15px;
 }
 
-.input{
-    border: 1px gray;
-    justify-content:center;
-}
-
 input{
     border-radius: 15px;
-    border: 2px solid gray;
+    border: 1px solid #c9c5c5;
+    width: 100%;
 }
 .button{
     background-color: #f7f5f5;
